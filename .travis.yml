@@ -9,7 +9,7 @@ script:
   - docker run vrusu/docker-react npm run test -- --coverage
 
 deploy:
-  provider: elastikbeanstalk
+  provider: elasticbeanstalk
   region: "eu-west-2"
   app: "docker-react"
   env: "DockerReact-env"
